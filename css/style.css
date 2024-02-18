@@ -1,0 +1,452 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+font-family: 'Work Sans', sans-serif;
+font-size: 14px;
+line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+a, a:hover{
+	text-decoration:none;
+	display:inline-block;
+}
+
+
+
+                                                                    /* header */
+.header{
+ width:100%;
+ background: url("../images/slider.png") center top no-repeat;
+ background-size: cover;
+ padding: 20px 0px 100px;
+
+}
+.menu{
+	width: 100%;
+    padding:20px 0px;
+}
+.menu .navbar-nav .nav-item .nav-link{
+	font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #5a6e79;
+    margin: 0px 0px 0px 25px;
+}
+.menu .navbar-nav .nav-item .nav-link:hover{
+		color:#bf2222 ;
+}
+.menu .navbar-nav .nav-item .nav-link:focus{
+		color:#bf2222 ;
+}
+.header .menu .btn-primary{
+    padding: 10px 25px;
+    background: #ffc178;
+    color: #ffffff;
+    border: 0px solid #ffc178;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1px;
+    margin: 5px 0px 0px 0px;
+    box-shadow: 1px 1px #14161914;
+}
+.header .menu .btn-primary:hover, .header .menu .btn-primary:focus{
+    background:#fff;
+    color:#ffc178 ;
+    border: 0px solid #fff;
+}                                                     
+
+
+.banner{
+width: 100%;	
+padding: 120px 0px;
+}
+.banner .content{
+width: 100%;	
+padding: 60px 0px 150px;
+
+}
+.banner .content h1{
+font-family: 'Montserrat', sans-serif;
+font-size:35px ;
+line-height: 50px;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 0px 0px 15px;
+color: #ffc178;
+}
+.banner .content p{
+font-family: 'Work Sans', sans-serif;
+font-size:14px ;
+line-height: 24px;
+font-weight: 600;
+letter-spacing: 1px;
+margin: 0px 0px 30px;
+color: #5a6e79;
+}  
+.banner .content .btn-primary{
+    padding: 10px 25px;
+    background: #ffc178;
+    color: #ffffff;
+    border: 0px solid #ffc178;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1px;
+    margin: 5px 0px 25px 0px;
+    box-shadow: 1px 1px #14161914;
+}
+.banner .content .btn-primary:hover, .banner .content .btn-primary:focus{
+    background:#fff;
+    color:#ffc178 ;
+    border: 0px solid #fff;
+}                                                   
+
+
+
+                                                       /* header */
+
+
+                                                       /* education */
+
+.education{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.education .title{
+	width: 100%;
+	margin: 0px auto;
+}
+.education .title h1{
+font-family: 'Work Sans', sans-serif;
+font-size:35px ;
+line-height: 50px;
+font-weight: 700;
+text-align: center;
+letter-spacing: 1px;
+margin: 0px 0px 15px;
+color: #252c3a;
+}
+
+.education .title p{
+font-family: 'Work Sans', sans-serif;
+font-size:14px ;
+line-height: 24px;
+font-weight: 600;
+text-align: center;
+letter-spacing: 1px;
+margin: 0px 0px 30px;
+color: #5a6e79;
+}                                                     /* education */
+                                                      /*online-education*/
+.online-education{
+	width: 100%;
+	margin: 0px auto;
+}
+.online-education .card img{
+	width: 100%;
+	position: relative;
+}
+.online-education .card h2{
+	font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    color: #ffff;
+    font-weight: 700;
+    position: absolute;
+    transform: translate(80px, 380px);
+}
+.acr{
+	width: 100%;
+	padding: 80px 0px;
+}
+.acimg{
+	width: 95%;
+	padding: 20px 0px 0px;
+	height: 385px;
+}
+.actxt{
+width: 100%;
+margin: 0px 0px 0px 0px;
+}
+.actxt h1{
+font-family: 'Montserrat', sans-serif;
+font-size:35px ;
+line-height: 50px;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 0px 0px 25px;
+color: #252c3a;
+}  
+.actxt{
+font-family: 'Work Sans', sans-serif;
+font-size:14px ;
+line-height: 24px;
+font-weight: 500;
+margin: 0px 0px 30px;
+color: #5a6e79;
+}  
+.acr2 .acl h2{
+font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffba00;
+    margin: 20px 0px -10px 0px;
+
+}  
+.acr2 .acl p{
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+color: #ffba00;
+
+ }                                          
+  .acr2 .acl2 h2{
+font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ff5f72;
+    margin: 20px 0px -10px 0px;
+
+}  
+.acr2 .acl2 p{
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+color: #ff5f72;
+
+ }  
+ .acr2 .acl3 h2{
+font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #43cb83;
+    margin: 20px 0px -10px 0px;
+
+}  
+.acr2 .acl3 p{
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+color: #43cb83;
+
+ } 
+                                                         /*online-education*/
+
+                                                      /*  around-university  */
+.around-university{
+    width: 100%;
+    padding: 20px 0px 60px;
+}
+
+.around-university .aruni{
+	width: 100%;
+	padding: 0px 0px 40px;
+}
+
+.around-university .aruni .title h1{
+font-family: 'Montserrat', sans-serif;
+font-size:35px ;
+line-height: 50px;
+font-weight: 700;
+text-align: center;
+letter-spacing: 1px;
+margin: -40px 0px 100px;
+color: #252c3a;
+}
+.around-university .card{
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #00000014;
+}
+.around-university .card h5{
+	font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+  
+}
+.around-university .card p{
+	font-size: 14px ;
+	font-weight: 400;
+	color:#7b8b94 ;
+	margin: 0px 0px 40px;
+}
+.around-university .card a{
+	text-decoration:none;
+	display:inline-block;
+	  color: #252c3a;
+}
+.around-university .card a:hover{
+	text-decoration: underline;
+    color: #ffc178;
+    display:inline-block;
+}
+
+.around-university .card a:focus{
+	text-decoration: underline;
+    color: #ffc178; 
+    display:inline-block;
+}
+
+
+
+                                                      /*  around-university  */
+
+                                                          /*  footer  */
+
+.upfooter{
+width: 100%;
+padding: 40px 0px 90px;
+margin: 100px 0px 0px;
+background:#252c3a ;
+border-bottom: 2px solid #ffffff21;
+}
+.upfooter .fstfooter{
+	width: 100%;
+	padding: 20px 0px;
+    
+}
+.upfooter .fstfooter p{
+font-family: 'Work Sans', sans-serif;
+font-size: 14px;
+font-weight:400;
+line-height: 24px;
+color: #969595;
+margin: 30px 0px;
+
+}
+.social-icons{
+width: 100%;
+border-top: 1px solid #9695952b;
+}
+.social-icons ul{
+	width: 100%;
+	padding:0px;			
+	margin: 30px 0px 0px;
+}
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons ul li a{
+	display: block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	color: #6b6b6b;
+	margin: 0px 0px 0px 10px;
+}
+.social-icons ul li a:hover{
+
+	color:#0089fd ;
+}
+.social-icons ul li a:focus{
+	color:#0089fd ;
+
+} 
+.upfooter .tiltle{
+	width: 100%;
+	margin: 15px 0px 40px;
+}
+.upfooter .tiltle h4{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px ;
+	font-weight: 600;
+	line-height: 28px;
+	color: #969595;
+}
+.upfooter h6{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px ;
+	font-weight: 400;
+	line-height:45px;
+	color: #969595;
+}
+.upfooter span{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 12px ;
+	font-weight: 300;
+	line-height: 24px;
+	color: #6b6b6b;
+}
+.upfooter p{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px ;
+	font-weight: 300;
+	line-height: 24px;
+	color: #969595;
+	margin: 50px 0px 20px;
+
+}
+.upfooter .alink a{
+	text-decoration: none;
+	display:block ;
+    font-family:'Work Sans', sans-serif;
+    font-size: 14px ;
+   	font-weight: 300;
+	line-height: 52px;
+	color: #969595;
+
+}
+.upfooter .alink a:hover, .upfooter .alink a:focus{
+	color: #ffc178;
+}
+.upfooter .form-control{
+	display: block;
+    width: 120%;
+    padding: 10px 15px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #969595;
+    border: none;
+    border-radius: 0px;
+}
+.upfooter .main-form .btn-primary{
+	width: 100%;
+	padding: 10px 0px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    background: #ffc178;
+    border: none;
+    border-radius: 0px;
+}
+.footer{
+	width: 100%;
+	padding: 10px 0px;
+	background:#1d232e;  
+}
+.footer p{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px ;
+	font-weight: 300;
+	line-height: 24px;
+	color: #6b6b6b;
+	margin: 15px 0px;
+}
+.footer .ftlink{
+	text-align: right;
+}
+.footer a{
+	text-align: right;
+	text-decoration: none;
+	display:inline-block ;
+    font-family:'Work Sans', sans-serif;
+    font-size: 14px ;
+   	font-weight: 300;
+	color: #6b6b6b;
+	margin: 15px 15px 15px 0px;
+}
+
+
+
+                                                          /*  footer */
